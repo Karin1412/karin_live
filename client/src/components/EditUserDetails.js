@@ -126,7 +126,7 @@ const EditUserDetails = ({onClose,user}) => {
                 <Divider/>    
                 <div className='flex gap-2 w-fit ml-auto '>
                     <button onClick={onClose} className='border-primary border text-primary px-4 py-1 rounded hover:bg-primary hover:text-white'>Cancel</button>
-                    <button onClick={handleSubmit} className='border-primary bg-primary text-white border px-4 py-1 rounded hover:bg-secondary'>Save</button>
+                    <button onClick={handleSubmit} className='border-primary bg-blue-200 text-white border px-4 py-1 rounded hover:bg-blue-400'>Save</button>
                 </div>
             </form>
         </div>
