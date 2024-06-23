@@ -1,11 +1,16 @@
-import React from 'react'
+import './App.css';
+import { Outlet } from 'react-router-dom';
+import toast, { Toaster } from 'react-hot-toast';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      
-    </div>
-  )
+   <> 
+      <Toaster/>
+       <main >
+        <Outlet/>
+       </main>
+   </>
+  );
 }
 
-export default App
+export default App;
