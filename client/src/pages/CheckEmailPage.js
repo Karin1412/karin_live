@@ -85,7 +85,7 @@ const CheckEmailPage = () => {
 
           </form>
 
-          <p className='my-3 text-center'>New User ? <Link to={"/register"} className='hover:text-primary font-semibold'>Register</Link></p>
+         
         </div>
     </div>
   )
