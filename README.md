@@ -13,4 +13,4 @@ npm i
 npm run dev
 
 ### Live pet social network repo
-https://github.com/Karin1412/karin_petapp
+https://github.com/Karin1412/pet_app
